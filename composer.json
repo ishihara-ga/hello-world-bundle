@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "GrundigAkademie\\HelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "GrundigAkademie\\HelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "scripts": {
