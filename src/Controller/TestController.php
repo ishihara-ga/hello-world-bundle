@@ -18,7 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Twig\Environment as TwigEnvironment;
 
-class NewsletterController extends AbstractController
+class TestController extends AbstractController
 {
     /**
      * @Route("/newsletter",
