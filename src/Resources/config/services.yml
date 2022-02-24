@@ -1,3 +1,5 @@
 services:
     _defaults:
         autoconfigure: true
+    GrundigAkademie\SeminarBundle\Controller\TestController:
+        public: true        
