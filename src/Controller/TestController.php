@@ -1,32 +1,23 @@
 <?php
 
-/*
- * This file is part of Seminar Bundle.
- *
- * (c) Grundig Akademie
- *
- * @license LGPL-3.0-or-later
- */
 
 namespace GrundigAkademie\HelloWorldBundle\Controller;
-
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class TestController 
-{
+class TestController{
+
     /**
      * @Route("/test123456",
      *     name=TestController::class,
      *     defaults={"_scope": "frontend"}
      * )
      */
-    public function __invoke(): Response
+    public function __invoke(Request $request): Response
     {
-        dump("test");
-        return new Response('Hello2');
+        return new Response('Hello World!');
     }
 
 
