@@ -1,3 +1,3 @@
 services:
-    GrundigAkademie\HelloWorldBundle\Controller\TestController:
-        public: true        
+    _defaults:
+        autoconfigure: true
