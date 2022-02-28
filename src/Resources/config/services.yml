@@ -1,3 +1,3 @@
 services:
-    _defaults:
-        autoconfigure: true
+    GrundigAkademie\HelloWorldBundle\Controller\HelloWorldController:
+        public: true    
