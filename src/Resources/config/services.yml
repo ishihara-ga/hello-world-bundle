@@ -1,3 +1,5 @@
 services:
-    GrundigAkademie\HelloWorldBundle\Controller\HelloWorldController:
-        public: true    
+    GrundigAkademie\HelloWorldBundle\Controller\TestController:
+        public: true
+        arguments:
+          $container: '@service_container'   

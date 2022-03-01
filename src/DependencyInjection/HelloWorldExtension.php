@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoHelloWorldExtension extends Extension
+class HelloWorldExtension extends Extension
 {
     public function load(array $mergedConfig, ContainerBuilder $container): void
     {
@@ -25,6 +25,7 @@ class ContaoHelloWorldExtension extends Extension
             $container,
             new FileLocator(__DIR__.'/../Resources/config')
         );
+
 
         $loader->load('services.yml');
     }
